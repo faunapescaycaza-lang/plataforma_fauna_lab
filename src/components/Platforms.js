@@ -139,47 +139,73 @@ const Platforms = () => {
           <Box sx={{ mt: 3 }}>
             <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2, mb: 2 }}>
               {row1Images.map((image, index) => (
-                <motion.div
+                <Box
                   key={index}
-                  whileHover={{ scale: 1.1 }}
-                  onClick={() => openModal(`/algoritmo_image/${image}`)}
-                  style={{ cursor: 'pointer' }}
+                  sx={{
+                    overflow: 'hidden',
+                    borderRadius: '8px',
+                    width: '200px',
+                    height: '200px',
+                  }}
                 >
-                  <Box
-                    component="img"
-                    src={`/algoritmo_image/${image}`}
-                    alt={`YOLO example ${index + 1}`}
-                    sx={{
-                      width: '150px',
-                      height: '150px',
-                      objectFit: 'cover',
-                      borderRadius: '8px',
-                    }}
-                  />
-                </motion.div>
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    onClick={() => openModal(`/algoritmo_image/${image}`)}
+                    style={{ cursor: 'pointer', width: '100%', height: '100%' }}
+                  >
+                    <Box
+                      component="img"
+                      src={`/algoritmo_image/${image}`}
+                      alt={`YOLO example ${index + 1}`}
+                      sx={{
+                        width: '100%',
+                        height: '100%',
+                        objectFit: 'cover',
+                      }}
+                    />
+                  </motion.div>
+                </Box>
               ))}
             </Box>
             <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}>
               {row2Images.map((image, index) => (
-                <motion.div
+                <Box
                   key={index}
-                  whileHover={{ scale: 1.1 }}
-                  onClick={() => openModal(`/algoritmo_image/${image}`)}
-                  style={{ cursor: 'pointer' }}
+                  sx={{
+                    overflow: 'hidden',
+                    borderRadius: '8px',
+                    width: '200px',
+                    height: '200px',
+                  }}
                 >
-                  <Box
-                    component="img"
-                    src={`/algoritmo_image/${image}`}
-                    alt={`YOLO example ${index + 1}`}
-                    sx={{
-                      width: '150px',
-                      height: '150px',
-                      objectFit: 'cover',
-                      borderRadius: '8px',
-                    }}
-                  />
-                </motion.div>
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    onClick={() => openModal(`/algoritmo_image/${image}`)}
+                    style={{ cursor: 'pointer', width: '100%', height: '100%' }}
+                  >
+                    <Box
+                      component="img"
+                      src={`/algoritmo_image/${image}`}
+                      alt={`YOLO example ${index + 1}`}
+                      sx={{
+                        width: '100%',
+                        height: '100%',
+                        objectFit: 'cover',
+                      }}
+                    />
+                  </motion.div>
+                </Box>
               ))}
+              <Box
+                sx={{
+                  overflow: 'hidden',
+                  borderRadius: '8px',
+                  width: '200px',
+                  height: '200px',
+                }}
+              >
+                <video autoPlay loop muted src="/algoritmo_image/WhatsApp Video 2025-11-30 at 4.05.16 PM.mp4" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              </Box>
             </Box>
           </Box>
         </Paper>
@@ -195,16 +221,28 @@ const Platforms = () => {
             {cameraTrapImages.map((image, index) => (
               <Grid item xs={12} sm={6} key={index}>
                 <Box
-                  component="img"
-                  src={`/${image}`}
-                  alt={`Camera Trap Example ${index + 1}`}
                   sx={{
-                    width: '100%',
-                    height: '200px', // Fixed height
-                    objectFit: 'cover',
+                    overflow: 'hidden',
                     borderRadius: '8px',
+                    height: '200px',
                   }}
-                />
+                >
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    style={{ cursor: 'pointer', width: '100%', height: '100%' }}
+                  >
+                    <Box
+                      component="img"
+                      src={`/${image}`}
+                      alt={`Camera Trap Example ${index + 1}`}
+                      sx={{
+                        width: '100%',
+                        height: '100%',
+                        objectFit: 'cover',
+                      }}
+                    />
+                  </motion.div>
+                </Box>
               </Grid>
             ))}
           </Grid>
@@ -220,68 +258,92 @@ const Platforms = () => {
           <Box sx={{ mt: 3 }}>
             <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2, mb: 2 }}>
               {droneImages_row1.map((image, index) => (
-                <motion.div
+                <Box
                   key={index}
-                  whileHover={{ scale: 1.1 }}
-                  onClick={() => openModal(`/Drone/${image}`)}
-                  style={{ cursor: 'pointer' }}
+                  sx={{
+                    overflow: 'hidden',
+                    borderRadius: '8px',
+                    width: '300px',
+                    height: '300px',
+                  }}
                 >
-                  <Box
-                    component="img"
-                    src={`/Drone/${image}`}
-                    alt={`Drone example ${index + 1}`}
-                    sx={{
-                      width: '150px',
-                      height: '150px',
-                      objectFit: 'cover',
-                      borderRadius: '8px',
-                    }}
-                  />
-                </motion.div>
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    onClick={() => openModal(`/Drone/${image}`)}
+                    style={{ cursor: 'pointer', width: '100%', height: '100%' }}
+                  >
+                    <Box
+                      component="img"
+                      src={`/Drone/${image}`}
+                      alt={`Drone example ${index + 1}`}
+                      sx={{
+                        width: '100%',
+                        height: '100%',
+                        objectFit: 'cover',
+                      }}
+                    />
+                  </motion.div>
+                </Box>
               ))}
             </Box>
             <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2, mb: 2 }}>
               {droneImages_row2.map((image, index) => (
-                <motion.div
+                <Box
                   key={index}
-                  whileHover={{ scale: 1.1 }}
-                  onClick={() => openModal(`/Drone/${image}`)}
-                  style={{ cursor: 'pointer' }}
+                  sx={{
+                    overflow: 'hidden',
+                    borderRadius: '8px',
+                    width: '300px',
+                    height: '300px',
+                  }}
                 >
-                  <Box
-                    component="img"
-                    src={`/Drone/${image}`}
-                    alt={`Drone example ${index + 1}`}
-                    sx={{
-                      width: '150px',
-                      height: '150px',
-                      objectFit: 'cover',
-                      borderRadius: '8px',
-                    }}
-                  />
-                </motion.div>
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    onClick={() => openModal(`/Drone/${image}`)}
+                    style={{ cursor: 'pointer', width: '100%', height: '100%' }}
+                  >
+                    <Box
+                      component="img"
+                      src={`/Drone/${image}`}
+                      alt={`Drone example ${index + 1}`}
+                      sx={{
+                        width: '100%',
+                        height: '100%',
+                        objectFit: 'cover',
+                      }}
+                    />
+                  </motion.div>
+                </Box>
               ))}
             </Box>
             <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2 }}>
               {droneImages_row3.map((image, index) => (
-                <motion.div
+                <Box
                   key={index}
-                  whileHover={{ scale: 1.1 }}
-                  onClick={() => openModal(`/Drone/${image}`)}
-                  style={{ cursor: 'pointer' }}
+                  sx={{
+                    overflow: 'hidden',
+                    borderRadius: '8px',
+                    width: '300px',
+                    height: '300px',
+                  }}
                 >
-                  <Box
-                    component="img"
-                    src={`/Drone/${image}`}
-                    alt={`Drone example ${index + 1}`}
-                    sx={{
-                      width: '150px',
-                      height: '150px',
-                      objectFit: 'cover',
-                      borderRadius: '8px',
-                    }}
-                  />
-                </motion.div>
+                  <motion.div
+                    whileHover={{ scale: 1.1 }}
+                    onClick={() => openModal(`/Drone/${image}`)}
+                    style={{ cursor: 'pointer', width: '100%', height: '100%' }}
+                  >
+                    <Box
+                      component="img"
+                      src={`/Drone/${image}`}
+                      alt={`Drone example ${index + 1}`}
+                      sx={{
+                        width: '100%',
+                        height: '100%',
+                        objectFit: 'cover',
+                      }}
+                    />
+                  </motion.div>
+                </Box>
               ))}
             </Box>
           </Box>
