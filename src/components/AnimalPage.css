@@ -1,0 +1,126 @@
+.animal-page-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.animal-page-container h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.animal-page-container p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.animal-video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.animal-video {
+  width: 600px;
+  height: 400px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.animal-image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.animal-image {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.animal-image:hover {
+  transform: scale(1.05);
+}
+
+.map-container {
+  height: 300px;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.back-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+/* Modal styles */
+.image-modal-overlay {
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000; /* Ensure it's on top of everything */
+}
+
+.image-modal {
+  max-width: 90vw;
+  max-height: 90vh;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  z-index: 1001; /* Ensure modal itself is on top of overlay */
+}
+
+.modal-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #333;
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: contain;
+}
+
+.red-circle-icon {
+  background-color: red;
+  border-radius: 50%;
+  border: 2px solid white;
+}

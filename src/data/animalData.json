@@ -1,0 +1,185 @@
+{
+  "Aguila - Alumine": {
+    "name": "Aguila - Alumine",
+    "path": "/animal/Aguila - Alumine",
+    "thumbnail": "/Animales/Monitoreo_Animales/Aguila - Alumine/annotated_image (29).png",
+    "images": [
+      "/Animales/Monitoreo_Animales/Aguila - Alumine/annotated_image (29).png",
+      "/Animales/Monitoreo_Animales/Aguila - Alumine/annotated_image (30).png"
+    ],
+    "videos": [],
+    "coordinates": [
+      -39.23656113759129,
+      -70.91836002521394
+    ]
+  },
+  "ciervos heuchulaf": {
+    "name": "ciervos heuchulaf",
+    "path": "/animal/ciervos heuchulaf",
+    "thumbnail": "/Animales/Monitoreo_Animales/ciervos heuchulaf/annotated_image (35).png",
+    "images": [
+      "/Animales/Monitoreo_Animales/ciervos heuchulaf/annotated_image (35).png",
+      "/Animales/Monitoreo_Animales/ciervos heuchulaf/annotated_image (36).png"
+    ],
+    "videos": [
+      "/Animales/Monitoreo_Animales/ciervos heuchulaf/WhatsApp Video 2025-11-29 at 9.38.05 AM (1).mp4"
+    ],
+    "coordinates": [
+      -39.790736968723415,
+      -71.21759359600158
+    ]
+  },
+  "Ciervo_SMA": {
+    "name": "Ciervo SMA",
+    "path": "/animal/Ciervo_SMA",
+    "thumbnail": "/Animales/Monitoreo_Animales/Ciervo_SMA/annotated_image (31).png",
+    "images": [
+      "/Animales/Monitoreo_Animales/Ciervo_SMA/annotated_image (31).png",
+      "/Animales/Monitoreo_Animales/Ciervo_SMA/annotated_image (32).png",
+      "/Animales/Monitoreo_Animales/Ciervo_SMA/annotated_image (33).png",
+      "/Animales/Monitoreo_Animales/Ciervo_SMA/annotated_image (34).png"
+    ],
+    "videos": [],
+    "coordinates": [
+      -40.119927,
+      -71.190483
+    ]
+  },
+  "Guanacos_JDLA": {
+    "name": "Guanacos JDLA",
+    "path": "/animal/Guanacos_JDLA",
+    "thumbnail": "/Animales/Monitoreo_Animales/Guanacos_JDLA/annotated_image (29).png",
+    "images": [
+      "/Animales/Monitoreo_Animales/Guanacos_JDLA/annotated_image (29).png",
+      "/Animales/Monitoreo_Animales/Guanacos_JDLA/annotated_image (30).png"
+    ],
+    "videos": [],
+    "coordinates": [
+      -40.503922,
+      -70.684803
+    ]
+  },
+  "huemul_VLA": {
+    "name": "huemul VLA",
+    "path": "/animal/huemul_VLA",
+    "thumbnail": "/Animales/Monitoreo_Animales/huemul_VLA/annotated_image (31).png",
+    "images": [
+      "/Animales/Monitoreo_Animales/huemul_VLA/annotated_image (31).png",
+      "/Animales/Monitoreo_Animales/huemul_VLA/annotated_image (32).png",
+      "/Animales/Monitoreo_Animales/huemul_VLA/annotated_image (33).png"
+    ],
+    "videos": [],
+    "coordinates": [
+      -40.7335,
+      -71.6508
+    ]
+  },
+  "Jabali_Camino Lolog": {
+    "name": "Jabali Camino Lolog",
+    "path": "/animal/Jabali_Camino Lolog",
+    "thumbnail": "/Animales/Monitoreo_Animales/Jabali_Camino Lolog/annotated_image (34).png",
+    "images": [
+      "/Animales/Monitoreo_Animales/Jabali_Camino Lolog/annotated_image (34).png",
+      "/Animales/Monitoreo_Animales/Jabali_Camino Lolog/annotated_image (35).png",
+      "/Animales/Monitoreo_Animales/Jabali_Camino Lolog/annotated_image (36).png",
+      "/Animales/Monitoreo_Animales/Jabali_Camino Lolog/annotated_image (37).png"
+    ],
+    "videos": [
+      "/Animales/Monitoreo_Animales/Jabali_Camino Lolog/WhatsApp Video 2025-10-27 at 7.09.24 PM.mp4",
+      "/Animales/Monitoreo_Animales/Jabali_Camino Lolog/WhatsApp Video 2025-10-27 at 7.28.49 PM.mp4"
+    ],
+    "coordinates": [
+      -40.09758333333333,
+      -71.26425
+    ]
+  },
+  "Monito del Monte_Covisal": {
+    "name": "Monito del Monte Covisal",
+    "path": "/animal/Monito del Monte_Covisal",
+    "thumbnail": "/Animales/Monitoreo_Animales/Monito del Monte_Covisal/annotated_image (41).png",
+    "images": [
+      "/Animales/Monitoreo_Animales/Monito del Monte_Covisal/annotated_image (41).png",
+      "/Animales/Monitoreo_Animales/Monito del Monte_Covisal/annotated_image (42).png",
+      "/Animales/Monitoreo_Animales/Monito del Monte_Covisal/annotated_image (43).png"
+    ],
+    "videos": [],
+    "coordinates": [
+      -40.1561479441862,
+      -71.30933848738076
+    ]
+  },
+  "puma traful": {
+    "name": "puma traful",
+    "path": "/animal/puma traful",
+    "thumbnail": "/Animales/Monitoreo_Animales/puma traful/annotated_image (37).png",
+    "images": [
+      "/Animales/Monitoreo_Animales/puma traful/annotated_image (37).png",
+      "/Animales/Monitoreo_Animales/puma traful/annotated_image (38).png",
+      "/Animales/Monitoreo_Animales/puma traful/annotated_image (39).png"
+    ],
+    "videos": [],
+    "coordinates": [
+      -40.66733307401904,
+      -71.3481137547199
+    ]
+  },
+  "Puma_Camino Rucahue": {
+    "name": "Puma Camino Rucahue",
+    "path": "/animal/Puma_Camino Rucahue",
+    "thumbnail": "/Animales/Monitoreo_Animales/Puma_Camino Rucahue/annotated_image (44).png",
+    "images": [
+      "/Animales/Monitoreo_Animales/Puma_Camino Rucahue/annotated_image (44).png",
+      "/Animales/Monitoreo_Animales/Puma_Camino Rucahue/annotated_image (45).png",
+      "/Animales/Monitoreo_Animales/Puma_Camino Rucahue/annotated_image (46).png",
+      "/Animales/Monitoreo_Animales/Puma_Camino Rucahue/annotated_image (47).png"
+    ],
+    "videos": [],
+    "coordinates": [
+      -40.119927,
+      -71.190483
+    ]
+  },
+  "Truchas_Boca_Chimehuin": {
+    "name": "Truchas Boca Chimehuin",
+    "path": "/animal/Truchas_Boca_Chimehuin",
+    "thumbnail": "/Animales/Monitoreo_Animales/Truchas_Boca_Chimehuin/Captura de pantalla 2025-11-28 201229.png",
+    "images": [],
+    "videos": [
+      "/Animales/Monitoreo_Animales/Truchas_Boca_Chimehuin/WhatsApp Video 2025-11-04 at 11.12.50 AM.mp4"
+    ],
+    "coordinates": [
+      -39.797469,
+      -71.211518
+    ]
+  },
+  "Zorro_centro_SMA": {
+    "name": "Zorro centro SMA",
+    "path": "/animal/Zorro_centro_SMA",
+    "thumbnail": "/Animales/Monitoreo_Animales/Zorro_centro_SMA/annotated_image (48).png",
+    "images": [
+      "/Animales/Monitoreo_Animales/Zorro_centro_SMA/annotated_image (48).png",
+      "/Animales/Monitoreo_Animales/Zorro_centro_SMA/annotated_image (49).png"
+    ],
+    "videos": [],
+    "coordinates": [
+      -40.157944444444446,
+      -71.35405555555555
+    ]
+  },
+  "Zorro_Zona Cercana Golf SMA": {
+    "name": "Zorro Zona Cercana Golf SMA",
+    "path": "/animal/Zorro_Zona Cercana Golf SMA",
+    "thumbnail": "/Animales/Monitoreo_Animales/Zorro_Zona Cercana Golf SMA/annotated_image (50).png",
+    "images": [
+      "/Animales/Monitoreo_Animales/Zorro_Zona Cercana Golf SMA/annotated_image (50).png",
+      "/Animales/Monitoreo_Animales/Zorro_Zona Cercana Golf SMA/annotated_image (51).png",
+      "/Animales/Monitoreo_Animales/Zorro_Zona Cercana Golf SMA/annotated_image (52).png",
+      "/Animales/Monitoreo_Animales/Zorro_Zona Cercana Golf SMA/annotated_image (53).png"
+    ],
+    "videos": [],
+    "coordinates": [
+      -40.11991666666667,
+      -71.19047222222223
+    ]
+  }
+}

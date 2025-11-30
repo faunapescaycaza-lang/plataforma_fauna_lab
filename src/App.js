@@ -1,24 +1,38 @@
-import logo from './logo.svg';
+import React, { useState, useMemo } from 'react';
+import { ThemeProvider, CssBaseline } from '@mui/material';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
+import Platforms from './components/Platforms';
+import AnimalPage from './components/AnimalPage';
+import theme from './theme';
 import './App.css';
 
 function App() {
+  const [mode, setMode] = useState('light');
+
+  const colorMode = useMemo(
+    () => ({
+      toggleColorMode: () => {
+        setMode((prevMode) => (prevMode === 'light' ? 'dark' : 'light'));
+      },
+    }),
+    [],
+  );
+
+  const activeTheme = useMemo(() => theme(mode), [mode]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={activeTheme}>
+      <CssBaseline />
+      <Router>
+        <Layout colorMode={colorMode} mode={mode}>
+          <Routes>
+            <Route path="/" element={<Platforms />} />
+            <Route path="/animal/:animalName" element={<AnimalPage />} />
+          </Routes>
+        </Layout>
+      </Router>
+    </ThemeProvider>
   );
 }
 
