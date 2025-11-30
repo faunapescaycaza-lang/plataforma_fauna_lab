@@ -78,7 +78,7 @@ const AnimalPage = () => {
           {animal.name}
         </Typography>
         <Typography variant="subtitle1" gutterBottom>
-                      Dirección de Fauna Aluminé - Fecha: Noviembre 2025        </Typography>
+        </Typography>
 
         {animal.videos && animal.videos.length > 0 && (
           <Box sx={{ mb: 4 }}>

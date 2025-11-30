@@ -119,7 +119,7 @@ const Platforms = () => {
                   {platform.name.replace(/_/g, ' ')}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  {platform.name === 'Aguila - Alumine' ? 'Dirección de Fauna Aluminé' : platform.name === 'Ciervos Huechulafquen' ? 'Dirección de Tecnología' : platform.name === 'Ciervo SMA' ? 'Dirección de Tecnología' : platform.name === 'Guanacos JDLA' ? 'Direccion de Fauna JDLA' : platform.name === 'Huemul VLA' ? 'Policia Provincial' : platform.name === 'Jabali Camino Lolog' ? 'Dirección de Fauna SMA' : platform.name === 'Monito del Monte Covisal' ? 'Vecino SMA' : platform.name === 'Traful Puma' ? 'Dirección de Fauna Traful' : platform.name === 'Puma Camino Rucahue SMA' ? 'Vecino SMA' : platform.name === 'Truchas Boca Chimehuin' ? 'Dirección de Fauna JDLA' : platform.name === 'Zorro centro SMA' ? 'Dirección de Fauna SMA' : platform.name === 'Zorro Golf SMA' ? 'Dirección de Fauna SMA' : 'Direccion de Fauna'}
+                  {platform.subtitle}
                 </Typography>
               </CardContent>
             </CardActionArea>

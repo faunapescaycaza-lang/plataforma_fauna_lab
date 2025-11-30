@@ -1,6 +1,7 @@
 {
   "Aguila - Alumine": {
     "name": "Aguila - Alumine",
+    "subtitle": "Dirección de Fauna Aluminé",
     "path": "/animal/Aguila - Alumine",
     "thumbnail": "/Animales/Monitoreo_Animales/Aguila - Alumine/annotated_image (29).png",
     "images": [
@@ -14,7 +15,8 @@
     ]
   },
   "ciervos heuchulaf": {
-    "name": "ciervos heuchulaf",
+    "name": "Ciervos Huachulafquen",
+    "subtitle": "Dirección de Tecnología",
     "path": "/animal/ciervos heuchulaf",
     "thumbnail": "/Animales/Monitoreo_Animales/ciervos heuchulaf/annotated_image (35).png",
     "images": [
@@ -31,6 +33,7 @@
   },
   "Ciervo_SMA": {
     "name": "Ciervo SMA",
+    "subtitle": "Dirección de Tecnología",
     "path": "/animal/Ciervo_SMA",
     "thumbnail": "/Animales/Monitoreo_Animales/Ciervo_SMA/annotated_image (31).png",
     "images": [
@@ -47,6 +50,7 @@
   },
   "Guanacos_JDLA": {
     "name": "Guanacos JDLA",
+    "subtitle": "Direccion de Fauna JDLA",
     "path": "/animal/Guanacos_JDLA",
     "thumbnail": "/Animales/Monitoreo_Animales/Guanacos_JDLA/annotated_image (29).png",
     "images": [
@@ -60,7 +64,8 @@
     ]
   },
   "huemul_VLA": {
-    "name": "huemul VLA",
+    "name": "Huemul VLA",
+    "subtitle": "Policia Provincial",
     "path": "/animal/huemul_VLA",
     "thumbnail": "/Animales/Monitoreo_Animales/huemul_VLA/annotated_image (31).png",
     "images": [
@@ -76,6 +81,7 @@
   },
   "Jabali_Camino Lolog": {
     "name": "Jabali Camino Lolog",
+    "subtitle": "Dirección de Fauna SMA",
     "path": "/animal/Jabali_Camino Lolog",
     "thumbnail": "/Animales/Monitoreo_Animales/Jabali_Camino Lolog/annotated_image (34).png",
     "images": [
@@ -95,6 +101,7 @@
   },
   "Monito del Monte_Covisal": {
     "name": "Monito del Monte Covisal",
+    "subtitle": "Vecino SMA",
     "path": "/animal/Monito del Monte_Covisal",
     "thumbnail": "/Animales/Monitoreo_Animales/Monito del Monte_Covisal/annotated_image (41).png",
     "images": [
@@ -109,7 +116,8 @@
     ]
   },
   "puma traful": {
-    "name": "puma traful",
+    "name": "Puma Traful",
+    "subtitle": "Dirección de Fauna Traful",
     "path": "/animal/puma traful",
     "thumbnail": "/Animales/Monitoreo_Animales/puma traful/annotated_image (37).png",
     "images": [
@@ -125,6 +133,7 @@
   },
   "Puma_Camino Rucahue": {
     "name": "Puma Camino Rucahue",
+    "subtitle": "Vecino SMA",
     "path": "/animal/Puma_Camino Rucahue",
     "thumbnail": "/Animales/Monitoreo_Animales/Puma_Camino Rucahue/annotated_image (44).png",
     "images": [
@@ -141,6 +150,7 @@
   },
   "Truchas_Boca_Chimehuin": {
     "name": "Truchas Boca Chimehuin",
+    "subtitle": "Dirección de Fauna JDLA",
     "path": "/animal/Truchas_Boca_Chimehuin",
     "thumbnail": "/Animales/Monitoreo_Animales/Truchas_Boca_Chimehuin/Captura de pantalla 2025-11-28 201229.png",
     "images": [],
@@ -154,6 +164,7 @@
   },
   "Zorro_centro_SMA": {
     "name": "Zorro centro SMA",
+    "subtitle": "Dirección de Fauna SMA",
     "path": "/animal/Zorro_centro_SMA",
     "thumbnail": "/Animales/Monitoreo_Animales/Zorro_centro_SMA/annotated_image (48).png",
     "images": [
@@ -168,6 +179,7 @@
   },
   "Zorro_Zona Cercana Golf SMA": {
     "name": "Zorro Zona Cercana Golf SMA",
+    "subtitle": "Dirección de Fauna SMA",
     "path": "/animal/Zorro_Zona Cercana Golf SMA",
     "thumbnail": "/Animales/Monitoreo_Animales/Zorro_Zona Cercana Golf SMA/annotated_image (50).png",
     "images": [
