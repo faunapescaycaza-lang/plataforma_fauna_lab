@@ -204,7 +204,7 @@ const Platforms = () => {
                   height: '200px',
                 }}
               >
-                <video autoPlay loop muted src="/algoritmo_image/WhatsApp Video 2025-11-30 at 4.05.16 PM.mp4" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src="/pumagif.gif" alt="Puma GIF" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </Box>
             </Box>
           </Box>
