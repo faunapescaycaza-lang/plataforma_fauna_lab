@@ -84,7 +84,7 @@ const Platforms = () => {
             Un proyecto innovador dedicado al monitoreo y conservación de la fauna silvestre en Neuquén.
           </Typography>
           <Typography variant="body1" paragraph>
-            Nuestra plataforma utiliza tecnología de vanguardia para el análisis y la identificación de especies en su hábitat natural. A través del algoritmo de detección inteligente <strong>YOLO</strong>, y un agente de inteligencia artificial que corre en <strong>n8n</strong>, analizamos detalladamente características como la simetría, apariencia, y paleta de colores de cada animal. Este análisis es potenciado por el avanzado modelo de <strong>Deepseek</strong>, permitiéndonos obtener información precisa y valiosa para la protección de nuestra biodiversidad.
+            Nuestra plataforma utiliza tecnología de vanguardia para el análisis y la identificación de especies en su hábitat natural. A través del algoritmo de detección inteligente <strong>YOLO</strong>, y un agente de inteligencia artificial que corre en <strong>n8n</strong>, analizamos detalladamente características como la simetría, apariencia, y paleta de colores de cada animal. Este análisis es potenciado por el avanzado modelo de <strong>Gemini</strong>, permitiéndonos obtener información precisa y valiosa para la protección de nuestra biodiversidad.
           </Typography>
         </Paper>
         <Divider sx={{ my: 4 }} />
@@ -134,7 +134,7 @@ const Platforms = () => {
             Algoritmo YOLO y Agente de IA de Análisis
           </Typography>
           <Typography variant="body1" paragraph>
-            En el corazón de Fauna LAB reside una potente sinergia tecnológica. Empleamos el algoritmo <strong>YOLO (You Only Look Once)</strong>, líder en la detección de objetos en tiempo real, para identificar con precisión la presencia y el tipo de fauna silvestre en nuestras imágenes y videos. Cada detección es luego procesada por un agente de inteligencia artificial avanzado, orquestado en la plataforma <strong>n8n</strong>. Este agente no solo clasifica, sino que realiza un análisis profundo de características como la simetría morfológica, patrones de coloración y movimientos específicos de cada animal. Esta fase de análisis detallado, impulsada por modelos como <strong>Deepseek</strong>, es crucial para la extracción de datos significativos que informan nuestras estrategias de conservación y manejo.
+            En el corazón de Fauna LAB reside una potente sinergia tecnológica. Empleamos el algoritmo <strong>YOLO (You Only Look Once)</strong>, líder en la detección de objetos en tiempo real, para identificar con precisión la presencia y el tipo de fauna silvestre en nuestras imágenes y videos. Cada detección es luego procesada por un agente de inteligencia artificial avanzado, orquestado en la plataforma <strong>n8n</strong>. Este agente no solo clasifica, sino que realiza un análisis profundo de características como la simetría morfológica, patrones de coloración y movimientos específicos de cada animal. Esta fase de análisis detallado, impulsada por modelos como <strong>Gemini</strong>, es crucial para la extracción de datos significativos que informan nuestras estrategias de conservación y manejo.
           </Typography>
           <Box sx={{ mt: 3 }}>
             <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2, mb: 2 }}>
@@ -365,11 +365,7 @@ const Platforms = () => {
                   Proyecto de tokenizar ejemplar de fauna silvestre
                 </Button>
               </ListItem>
-              <ListItem sx={{ justifyContent: 'center' }}>
-                <Button variant="contained" color="primary" sx={{ width: { xs: '100%', md: 300 }, height: '48px' }}>
-                  Proyecto de tokenizar un area natural protegida
-                </Button>
-              </ListItem>
+
             </List>
           </Paper>
         </Box>
