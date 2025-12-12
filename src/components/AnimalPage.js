@@ -78,6 +78,7 @@ const AnimalPage = () => {
           {animal.name}
         </Typography>
         <Typography variant="subtitle1" gutterBottom>
+          {animal.subtitle}
         </Typography>
 
         {animal.videos && animal.videos.length > 0 && (
